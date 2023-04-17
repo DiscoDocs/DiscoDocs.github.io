@@ -1,0 +1,6 @@
+<iframe id="iframe" src="https://discodocs.tenlocode.repl.co/"></iframe>
+<script>
+  const fid = urlParams.get('id');
+  const iframe = document.getElementById("iframe");
+  iframe.setAttribute("src", "https://discodocs.tenlocode.repl.co/file?id=" + fid);
+</script>
